@@ -1,0 +1,12 @@
+### Terraform ###
+# Compiled files
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+
+# Module directory
+.terraform/
+
+# special files in examples
+examples/*/.terraform
+examples/*/.terraform.lock.hcl
